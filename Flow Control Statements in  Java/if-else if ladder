@@ -1,0 +1,25 @@
+package test_project;  //created a package named test_project inside TestProject project in eclipse IDLE
+
+public class TestProject {   //created public class  named TestProject same as project name by convention
+
+	public static void main(String[] args) {  //main function-- execution of program starts here
+		// TODO Auto-generated method stub
+ 
+		//if-else ladder
+		int num=120;
+		
+		if(num>0)
+		{ 
+			System.out.println("POSITIVE Number"); //if the number is positive
+			
+		}
+		else if(num<0) {
+			System.out.println("NEGATIVE Number");//if the number is negative
+		}
+		else {
+			System.out.println("Number is ZERO");//if the number is zero
+		}
+		
+	}
+
+}
