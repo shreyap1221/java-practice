@@ -1,0 +1,21 @@
+package test_project;  //created a package named test_project inside TestProject project in eclipse IDLE
+
+public class TestProject {   //created public class  named TestProject same as project name by convention
+
+	public static void main(String[] args) {  //main function-- execution of program starts here
+		// TODO Auto-generated method stub
+ 
+		int a = 50;  //integer datatype--> stores integer values  
+		float b = 940f; //float stores float data
+		boolean c = true; //boolean datatype
+		String d = "Shreya Pawar"; //string datatype--> s should be capital
+		
+		System.out.println(a); //50
+		System.out.println(b); //940.0
+		System.out.println(c); //true
+		System.out.println(d); //Shreya Pawar
+		
+		
+	}
+
+}
