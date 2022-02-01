@@ -1,0 +1,33 @@
+package test_project;  //created a package named test_project inside TestProject project in eclipse IDLE
+
+public class TestProject {   //created public class  named TestProject same as project name by convention
+
+	public static void main(String[] args) {  //main function-- execution of program starts here
+		// TODO Auto-generated method stub
+ 
+		//Arithmetic Operators: +,-,*,/
+		int a= 40;
+		int b=80;
+		
+		System.out.println(a+b); //120
+		System.out.println(a-b); //-40
+		System.out.println(a*b); //3200
+		System.out.println(b/a); //2
+		
+		//Relational Operators: <,>,==,!=
+		System.out.println(a>b); //false
+		System.out.println(a<b); //true
+		System.out.println(a==b); //false
+		System.out.println(a!=b); //true
+		
+		//Logical Operators: &,|
+		boolean c = true;
+		boolean d = false;
+		
+		System.out.println(c&d); //false
+		System.out.println(c|d); //true
+		
+		
+	}
+
+}
