@@ -1,0 +1,23 @@
+package test_project;  //created a package named test_project inside TestProject project in eclipse IDLE
+
+public class TestProject {   //created a public class  named TestProject same as project name by convention
+
+	public static void main(String[] args) {  //main function-- execution of program starts here
+		// TODO Auto-generated method stub
+ 
+		TestProject obj = new TestProject();
+				
+		int x=12;
+		int y=90;
+		
+		int z= obj.add(x, y);
+		System.out.println(z);
+    }
+	
+	public int add(int num1,int num2) {
+		int result = num1+num2;
+		
+		return result;  
+	}
+
+}
