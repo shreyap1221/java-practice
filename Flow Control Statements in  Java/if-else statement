@@ -1,0 +1,20 @@
+package test_project;  //created a package named test_project inside TestProject project in eclipse IDLE
+
+public class TestProject {   //created public class  named TestProject same as project name by convention
+
+	public static void main(String[] args) {  //main function-- execution of program starts here
+		// TODO Auto-generated method stub
+ 
+		//if statements
+		int a=40;
+		int b=12;
+		if(a>b)
+		{
+			System.out.println("a is greater than b"); //this will be printed as 40>12
+		}else {
+			System.out.println("b is greater than a"); //this is false statement-- hence will not be executed
+		}
+		
+	}
+
+}
