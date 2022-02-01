@@ -1,0 +1,11 @@
+package test_project;  //created a package named test_project inside TestProject project in eclipse IDLE
+
+public class TestProject {   //created public class  named TestProject same as project name by convention
+
+	public static void main(String[] args) {  //main function-- execution of program starts here
+		// TODO Auto-generated method stub
+ 
+		System.out.println("This is Shreya Pawar");  //System.out.println()-- command to print the statement of our choice
+	}
+
+}
