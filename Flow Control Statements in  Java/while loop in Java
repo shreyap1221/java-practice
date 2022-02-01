@@ -1,0 +1,18 @@
+package test_project;  //created a package named test_project inside TestProject project in eclipse IDLE
+
+public class TestProject {   //created public class  named TestProject same as project name by convention
+
+	public static void main(String[] args) {  //main function-- execution of program starts here
+		// TODO Auto-generated method stub
+ 
+		//looping Statements
+		//While loop
+		
+		int a=10;
+		while(a<=15) {
+			System.out.println(a); //output - 10 11 12 13 14 15
+			a++; //incrementing a
+		}
+	}
+
+}
