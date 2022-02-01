@@ -10,7 +10,7 @@ public class TestProject {   //created public class  named TestProject same as p
 		int i,j;
 		for(i=0;i<5;i++) {
 			for(j=0;j<=i;j++) {
-				System.out.println("*");
+				System.out.print("*");
 				
 			}
 			System.out.println();
