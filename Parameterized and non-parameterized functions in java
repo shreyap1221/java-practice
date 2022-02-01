@@ -1,0 +1,23 @@
+package test_project;  //created a package named test_project inside TestProject project in eclipse IDLE
+
+public class TestProject {   //created a public class  named TestProject same as project name by convention
+
+	public static void main(String[] args) {  //main function-- execution of program starts here
+		// TODO Auto-generated method stub
+ 
+		sparta(); //function call
+		add(20,30); //function call
+		
+	}
+	//non- parameterized function
+    public static void sparta() {   //function definition 
+    	System.out.println("Hellooooooo"); //output --> Hellooooooo
+    }
+    
+    
+    //Parameterized function
+    public static void add(int num1,int num2) { //function definition
+    	System.out.println(num1+num2); //output --> 50
+    }
+
+}
