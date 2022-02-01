@@ -1,0 +1,27 @@
+package test_project;  //created a package named test_project inside TestProject project in eclipse IDLE
+
+public class TestProject {   //created public class  named TestProject same as project name by convention
+
+	public static void main(String[] args) {  //main function-- execution of program starts here
+		// TODO Auto-generated method stub
+ 
+		//looping Statements
+		//Nested for loop
+		int i,j;
+		for(i=0;i<5;i++) {
+			for(j=0;j<=i;j++) {
+				System.out.println("*");
+				
+			}
+			System.out.println();
+			/*output: *
+			          **
+			          ***
+			          ****
+			          *****
+		    */
+		}
+		
+	}
+
+}
