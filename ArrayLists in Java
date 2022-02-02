@@ -1,0 +1,24 @@
+package test_project;  //created a package named test_project inside TestProject project in eclipse IDLE
+
+import java.util.ArrayList;
+import java.util.Scanner;
+public class TestProject {   //created a public class  named TestProject same as project name by convention
+
+	public static void main(String[] args) {  //main function-- execution of program starts here
+		// TODO Auto-generated method stub
+		//ArrayLists in Java
+		ArrayList<String> color = new ArrayList<String>();
+		
+		color.add("Yellow");
+		color.add("Purple");
+		color.add("Green");
+		color.add("Pink");
+		color.add("Red");
+		
+		System.out.println(color);
+		
+		
+	}
+}
+
+//Output: [Yellow, Purple, Green, Pink, Red]
