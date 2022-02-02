@@ -1,0 +1,20 @@
+package test_project;  //created a package named test_project inside TestProject project in eclipse IDLE
+
+public class TestProject {   //created a public class  named TestProject same as project name by convention
+
+	public static void main(String[] args) {  //main function-- execution of program starts here
+		// TODO Auto-generated method stub
+		//Arrays in Java
+		
+		int [] a = new int[5];  //
+		
+		for(int i=0;i<5;i++) {
+			a[i] = i;
+		}
+		for(int i=0;i<5;i++) {
+			System.out.print(a[i]+" "); //output:0 1 2 3 4 
+		}
+		
+		
+	}
+}
